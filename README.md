@@ -30,7 +30,6 @@ $ java JarClasses json-20231013.jar
   Fields: 3
 
 ... etc.
-
 ```
 
 #### How to Compile and Run
