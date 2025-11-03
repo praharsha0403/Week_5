@@ -40,7 +40,7 @@ javac week5.java
 java -cp .:json-20231013.jar week5 json-20231013.jar
 ```
 
-#### On Windows, replace : with ; in the `-cp` classpath separator:
+#### On Windows:
 
 ```
 java -cp .;json-20231013.jar JarClasses json-20231013.jar
