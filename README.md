@@ -10,7 +10,7 @@ This program reads a .jar file, extracts the classes inside it, and for each cla
 
 The output is sorted alphabetically by class name.
 
-### Example Output
+#### Example Output
 
 ```
 $ java JarClasses json-20231013.jar
@@ -33,14 +33,14 @@ $ java JarClasses json-20231013.jar
 
 ```
 
-### How to Compile and Run
+#### How to Compile and Run
 
 ```
 javac JarClasses.java
 java -cp .:json-20231013.jar JarClasses json-20231013.jar
 ```
 
-### On Windows, replace : with ; in the `-cp` classpath separator:
+#### On Windows, replace : with ; in the `-cp` classpath separator:
 
 ```
 java -cp .;json-20231013.jar JarClasses json-20231013.jar
