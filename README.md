@@ -36,8 +36,8 @@ $ java JarClasses json-20231013.jar
 #### How to Compile and Run
 
 ```
-javac JarClasses.java
-java -cp .:json-20231013.jar JarClasses json-20231013.jar
+javac week5.java
+java -cp .:json-20231013.jar week5 json-20231013.jar
 ```
 
 #### On Windows, replace : with ; in the `-cp` classpath separator:
